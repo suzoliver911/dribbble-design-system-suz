@@ -1,13 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import logots from "./assets/card-image-ts.svg";
+import "./App.css";
+import UnderlineButton from "./lib/components/UnderlineButton";
+import CourseCardVertical from "./lib/components/CourseCardVertical";
+import CourseCardHorizontal from "./lib/components/CourseCardHorizontal";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/lib/components</code> and save to reload.
         </p>
         <a
           className="App-link"
@@ -17,6 +19,25 @@ function App() {
         >
           Learn React
         </a>
+        <div className="My-Stuff">
+          <h5>Local Components Pilot</h5>
+          <UnderlineButton label="Browse all" />
+          <p>Course Card Vertical</p>
+          <CourseCardVertical
+            image={logots}
+            title="Statechart Driven UI Components with Zag.js"
+            kicker="Course"
+            name="Segun Adebayo"
+          />
+
+          <p>Course Card Horizontal</p>
+          <CourseCardHorizontal
+            image={logots}
+            title="Statechart Driven UI Components with Zag.js"
+            kicker="Course"
+            name="Segun Adebayo"
+          />
+        </div>
       </header>
     </div>
   );
