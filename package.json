@@ -1,6 +1,6 @@
 {
   "name": "dribbble-design-system-suz",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Suz Example design system from the Dribbble Scaling Design Systems Course.",
   "private": false,
   "main": "dist/index.js",

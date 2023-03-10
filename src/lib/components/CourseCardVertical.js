@@ -28,7 +28,7 @@ const CardContent = styled.div`
   flex-direction: column;
 `;
 
-const CardTitle = styled.h1`
+const CardTitle = styled.div`
   color: #f3f4f6;
   font-weight: 500;
   font-size: 18px;
